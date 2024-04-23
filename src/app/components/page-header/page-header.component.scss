@@ -1,0 +1,54 @@
+.header-outer{
+    background-color: #e7e7e7;
+    .page-header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header-logo{
+            font-family: "Great Vibes", cursive;
+            font-size:30px;
+            color: var(--primary-color) ;
+            padding: 0.25rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .link-tab-section{
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                li{
+                    display: inline-block;
+                    padding: 0.5rem 1rem;
+                    .nav-item{
+                        cursor: pointer;
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: #232323;
+                        text-transform: capitalize;
+                        transition: 0.5s all;
+                    }
+                }
+                li:hover{
+                    .nav-item{
+                        color: var(--primary-color);
+                        font-weight: 700;
+                        transition: 0.5s all;
+                    }
+                    border-bottom: 1px solid var(--primary-color);
+                }
+                li.active-class{
+                    .nav-item{
+                        color: var(--primary-color);
+                        font-weight: 700;
+                        transition: 0.5s all;
+                    }
+                    border-bottom: 1px solid var(--primary-color);
+                }
+            }
+        }
+    }
+}

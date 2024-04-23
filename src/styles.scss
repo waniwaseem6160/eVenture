@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../src/assets/bootstrap/bootstrap.min.css';
+
+.montserrat-400 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+:root{
+    --bs-font-sans-serif: "Montserrat", sans-serif;
+    --primary-color:#ff1012;
+}
+.gv-font{
+    font-family: "Great Vibes", cursive;
+}
